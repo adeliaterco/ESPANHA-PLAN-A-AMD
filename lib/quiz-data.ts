@@ -1,15 +1,15 @@
 export const quizSteps = [
   {
     id: 1,
-    question: "¡NO DEJES QUE LA MUJER QUE AMAS SALGA DE TU VIDA PARA SIEMPRE!",
-    description: "Haz la evaluación rápida de 2 minutos y descubre cómo aplicar el PLAN A en tu caso específico.",
-    subtext: "Primero, selecciona tu género:",
+    question: "¡NO DEJES QUE LA PERSONA QUE AMAS SALGA DE TU VIDA PARA SIEMPRE!",
+    description: "Haz la prueba rápida de 2 minutos y descubre cómo aplicar el PLAN A - en tu caso específico.",
+    subtext: "Selecciona tu género:",
     options: ["MASCULINO", "FEMENINO"],
-    warning: "⚠️ ATENCIÓN: Este método comprobado solo debe usarse si estás 100% comprometido en recuperar a tu amor perdido!",
-    note: "Información completamente confidencial",
+    warning:
+      "⚠️ ATENCIÓN: ¡Este método comprobado solo debe usarse si estás 100% comprometido en reconquistar tu amor perdido!",
     elements: {
       heartbeat: true,
-      timer: "Evaluación de 2 minutos",
+      timer: "Prueba de 2 minutos",
     },
   },
   {
@@ -18,13 +18,13 @@ export const quizSteps = [
     description: "(Esta información es crucial para personalizar tu plan de reconquista)",
     options: [
       "18-29 - Fase de descubrimientos emocionales",
-      "29-39 - Período de consolidación de valores", 
+      "29-39 - Período de consolidación de valores",
       "39-49 - Momento de reevaluación de prioridades",
       "50+ - Fase de madurez emocional",
     ],
     elements: {
       ageIcons: true,
-      counter: "hombres que ya hicieron la evaluación hoy",
+      counter: "personas que ya hicieron la prueba hoy",
     },
   },
   {
@@ -39,7 +39,7 @@ export const quizSteps = [
       id: 1,
       title: "21 DISPARADORES EMOCIONALES QUE FUNCIONAN",
       value: 47,
-      description: "Incluido en tu evaluación personalizada",
+      description: "Las 21 frases exactas que hacen que piense en ti obsesivamente.",
     },
   },
   {
@@ -55,7 +55,12 @@ export const quizSteps = [
     },
     elements: {
       analysisText: "Calculando tasa de éxito para tu caso...",
-      successRate: "¡Tu caso tiene características muy prometedoras!",
+      successRate: "¡Tu caso tiene características prometedoras!",
+      // 🔥 PRIMEIRO TESTEMUNHO - POSICIONAMENTO ESTRATÉGICO
+      testimonialDisplay: true,
+      testimonialName: "Carlos M.",
+      testimonialText: "¡Volvió a responderme al 3er día y me propuso vernos al 6º día!",
+      testimonialImage: "https://comprarplanseguro.shop/wp-content/uploads/2025/08/Captura-de-Tela-2025-08-08-as-19.01.05.png",
     },
   },
   {
@@ -72,7 +77,7 @@ export const quizSteps = [
       masculino: [
         "😔 Lidiar con la soledad y el vacío",
         "😢 La montaña rusa emocional: ira, tristeza, arrepentimiento",
-        "💭 Lidiar con recuerdos y memorias",
+        "😐 Lidiar con recuerdos y memorias",
         "💔 Imaginarla con otro hombre",
         "🤔 Darme cuenta de que los planes que hicimos nunca se harán realidad",
         "⚡ Otro",
@@ -80,7 +85,7 @@ export const quizSteps = [
       feminino: [
         "😔 Lidiar con la soledad y el vacío",
         "😢 La montaña rusa emocional: ira, tristeza, arrepentimiento",
-        "💭 Lidiar con recuerdos y memorias",
+        "😐 Lidiar con recuerdos y memorias",
         "💔 Imaginarlo con otra mujer",
         "🤔 Darme cuenta de que los planes que hicimos nunca se harán realidad",
         "⚡ Otro",
@@ -103,8 +108,8 @@ export const quizSteps = [
         "🧐 Estoy aplicando contacto cero",
         "😢 Ella me ignora completamente",
         "❌ Me ha bloqueado en todas las redes sociales",
-        "🤝 Hablamos solo de cosas necesarias",
-        "💬 Charlamos de vez en cuando",
+        "�� Hablamos solo de cosas necesarias",
+        "🤔 Charlamos de vez en cuando",
         "😌 Seguimos siendo amigos",
         "🔥 Hemos tenido encuentros íntimos después de la ruptura",
       ],
@@ -113,18 +118,14 @@ export const quizSteps = [
         "😢 Él me ignora completamente",
         "❌ Me ha bloqueado en todas las redes sociales",
         "🤝 Hablamos solo de cosas necesarias",
-        "�� Charlamos de vez en cuando",
+        "🤔 Charlamos de vez en cuando",
         "😌 Seguimos siendo amigos",
         "🔥 Hemos tenido encuentros íntimos después de la ruptura",
       ],
     },
     elements: {
       profileComplete: "62%",
-      // 🔥 PRIMEIRO DEPOIMENTO ESTRATÉGICO
-      testimonialDisplay: true,
-      testimonialName: "Carlos M.",
-      testimonialText: "¡Volvió a responderme al 3er día y me propuso vernos al 6º día!",
-      testimonialImage: "https://comprarplanseguro.shop/wp-content/uploads/2025/08/Captura-de-Tela-2025-08-08-as-19.01.05.png",
+      testimonialImage: "",
     },
   },
   {
@@ -139,7 +140,7 @@ export const quizSteps = [
         "🚫 No, está soltera",
         "🤔 No estoy seguro",
         "😔 Sí, está saliendo con alguien",
-        "�� Sí, tiene una relación seria",
+        "💔 Sí, tiene una relación seria",
         "🔄 Está saliendo con varias personas",
       ],
       feminino: [
@@ -154,11 +155,11 @@ export const quizSteps = [
       id: 2,
       title: "PROTOCOLO DE EMERGENCIA 72H",
       value: 37,
-      description: "Incluido en tu estrategia personalizada",
+      description: "Qué hacer cuando todo parece perdido y tienes 72 horas para actuar.",
     },
     elements: {
       profileComplete: "77%",
-      // 🔥 SEGUNDO DEPOIMENTO ESTRATÉGICO
+      // 🔥 SEGUNDO TESTEMUNHO - PAUSA ESTRATÉGICA (4 steps depois)
       testimonialDisplay: true,
       testimonialName: "Rafael S.",
       testimonialText: "Estaba perdido después de la ruptura. El Plan A me dio dirección y confianza. ¡Hoy estamos más unidos que nunca!",
@@ -172,9 +173,10 @@ export const quizSteps = [
       feminino: "¿CUÁNTO QUIERES RECUPERARLO?",
     },
     description: "(Tu nivel de compromiso determinará tu éxito)",
-    subtext: "El 91% de los hombres que seleccionaron nivel 4 reconquistaron a su ex en menos de 21 días usando el PLAN A.",
+    subtext:
+      "El 91% de las personas que seleccionaron nivel 4 reconquistaron a su ex en menos de 21 días usando el PLAN A.",
     options: ["1 - No estoy seguro", "2 - Me lo estoy pensando", "3 - Lo quiero bastante", "4 - Lo quiero muchísimo"],
-    note: "Solo trabajo con hombres decididos a transformar su situación amorosa. El PLAN A fue desarrollado para quien está preparado para actuar.",
+    note: "Solo trabajo con personas decididas a transformar su situación amorosa. El PLAN A fue desarrollado para quien está preparado para actuar.",
     elements: {
       thermometer: true,
       profileComplete: "85%",
@@ -188,25 +190,29 @@ export const quizSteps = [
     autoAdvance: true,
     elements: {
       expertPhoto: true,
+      // 🔥 IMAGEM DO EXPERT CORRIGIDA (SEM DATA FUTURA)
       expertImage: "https://comprarplanseguro.shop/wp-content/uploads/2025/09/Generated-Image-September-07_-2025-12_00AM-_1_-e1757389439336.webp",
-      autoMessage: "Basándome en 7 años de experiencia ayudando a hombres como tú...",
+      autoMessage: "Basándome en 7 años de experiencia ayudando a personas como tú...",
       profileComplete: "90%",
     },
   },
   {
     id: 11,
-    question: "¡FELICITACIONES! He analizado tus respuestas y tengo excelentes noticias para ti.",
-    description: "Basándome en tu perfil y situación específica, el PLAN A tiene un 90,5% de probabilidades de funcionar en tu caso.",
-    options: ["¡VAMOS AL SIGUIENTE PASO!"],
-    note: "Estoy aquí para guiarte personalmente en este viaje de reconquista. En los últimos 7 años, he ayudado a más de 3.847 hombres a recuperar sus relaciones usando este método exclusivo.",
+    question: "¡FELICITACIONES! He analizado tus respuestas y tengo buenas noticias para ti.",
+    description:
+      "Basándome en tu perfil y situación específica, el PLAN A tiene un 90,5% de probabilidades de funcionar en tu caso.",
+    options: ["¿VAMOS AL SIGUIENTE PASO?"],
+    note: "Estoy aquí para guiarte personalmente en este viaje de reconquista. En los últimos 7 años, he ayudado a más de 3.847 personas a recuperar sus relaciones usando este método exclusivo.",
     elements: {
       expertPhoto: true,
+      // 🔥 IMAGEM DO EXPERT CORRIGIDA (SEM DATA FUTURA)
       expertImage: "https://comprarplanseguro.shop/wp-content/uploads/2025/09/Generated-Image-September-07_-2025-12_00AM-_1_-e1757389439336.webp",
       profileComplete: "95%",
-      helpedCounter: "Hombres ayudados hoy: 17",
+      helpedCounter: "Personas ayudadas hoy: 17",
       compatibilityCalc: "90,5%",
     },
   },
+  // ✅ STEP 12 MANTIDO EXATAMENTE COMO ESTAVA (SEM ALTERAÇÕES)
   {
     id: 12,
     question: "¡TU PLAN DE ACCIÓN PERSONALIZADO ESTÁ LISTO!",
@@ -244,7 +250,7 @@ export const testimonials = [
     rating: 5,
   },
   {
-    name: "Rafael, 32 años", 
+    name: "Rafael, 32 años",
     text: "Estaba perdido después de la ruptura. El Plan A me dio dirección y confianza. ¡Hoy estamos más unidos que nunca!",
     rating: 5,
   },
@@ -262,13 +268,29 @@ export const testimonials = [
 
 export const socialProofMessages = [
   "¡Estás entre el 17% más decidido a reconquistar!",
-  "¡Tu perfil muestra compatibilidad alta!",
+  "¡Tu perfil muestra compatibilidad!",
   "¡Bonificación liberada por desbloqueo!",
   "¡Has desbloqueado los 2 bonos - valor total de $84!",
-  "El 87% de los hombres en tu situación lograron resultados en menos de 14 días",
-  "Estás más comprometido que el 73% de los hombres que hicieron esta evaluación",
-  "Tu caso tiene características muy prometedoras",
-  "Evaluación personalizada completándose",
-  "Estrategia adaptada a tu situación específica",
-  "Plan de acción personalizado generándose",
+  "El 87% de las personas en tu situación lograron resultados en menos de 14 días",
+  "Estás más comprometido que el 73% de las personas que hicieron esta prueba",
+  "-",
+  "-",
+  "-",
+  "-",
 ]
+
+// Función utilitaria para personalizar textos basados en el género
+export function getPersonalizedContent(content, gender) {
+  if (typeof content === "string") {
+    return content
+  }
+
+  if (typeof content === "object" && content !== null) {
+    if (content.masculino && content.feminino) {
+      return gender === "MASCULINO" ? content.masculino : content.feminino
+    }
+    return content
+  }
+
+  return content
+}
