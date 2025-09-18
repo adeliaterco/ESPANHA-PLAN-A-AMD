@@ -281,7 +281,7 @@ export default function HomePage() {
 
             {/* 💡 SUBTÍTULO COM PROVA SOCIAL */}
             <p className="subtitulo">
-              ⏱️ Evaluación de 2 minutos usada por +8,500 hombres 
+              ⏱️ Evaluación de 2 minutos usada por +3,500 hombres 
               <span style={{color: "#FFD700", fontWeight: "600"}}>
                 {" "}(87% recuperó a su ex)
               </span>
