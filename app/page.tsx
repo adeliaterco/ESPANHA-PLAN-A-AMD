@@ -321,14 +321,14 @@ export default function HomePage() {
 
             {/* 💪 ELEMENTO DE CONFIANÇA */}
             <div className="elemento-confianca">
-              ✓ Más de 8,500 hombres evaluados  ✓ Método probado  ✓ 100% confidencial
+              ✓ Más de 3,500 hombres evaluados  ✓ Método probado  ✓ 100% confidencial
             </div>
 
             {/* 🏆 DEPOIMENTO MASCULINO PODEROSO */}
             <div className="depoimento">
               <div className="avatar">
                 <Image
-                  src="https://comprarplanseguro.shop/wp-content/uploads/2025/08/avatar-hombre-latino.webp"
+                  src="https://comprarplanseguro.shop/wp-content/uploads/2025/08/Persona-1.webp"
                   alt="Testimonio real"
                   width={55}
                   height={55}
